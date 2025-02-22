@@ -1,0 +1,69 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.campaigns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+}
+
+.campaign-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 10px;
+}
+
+.campaign-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.campaign-card .campaign-progress {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.campaign-card .progress-bar {
+  background-color: #e0e0e0;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.campaign-card .progress {
+  background-color: #27ae60;
+  height: 100%;
+  border-radius: 5px;
+}
